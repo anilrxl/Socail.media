@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socail Media Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="image/logo.jpg" width="175" height="35" class="logo">
+            <ul>
+                <li><img src="image/notification-bell.png" width="35" height="35"></li>
+                <li><img src="image/inbox.png" width="35" height="35"></li>
+                <li><img src="image/facebook.png" width="35" height="35"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="image/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-use-icon online" onclick="settingsMenuToggle()">
+                <img src="image/marketing3.png.jpg" >
+            </div>
+
+        </div>
+
+        <!--------------------Settings-menu ----------->
+        <div class="settings-menu">
+
+             <div id="dark-btn" >
+                <span></span>
+             </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="image/marketing3.png.jpg">
+                    <div>
+                        <p>Tannu Bhatiya</p>
+                        <a href="#">Seen Your Profiles</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="image/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="image/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="image/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="image/arrow.png" width="10px"></a>
+                </div>
+               
+                <div class="settings-links">
+                    <img src="image/display.png" class="settings-icon">
+                    <a href="#"> Display and Accessibility<img src="image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="image/logout.png" class="settings-icon">
+                    <a href="#"> Logout<img src="image/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+            </div>
+
+</nav>
+
+    <div class="container">
+    <!---------left-sidebar--------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="image/news.png">Latest News</a>
+                <a href="#"><img src="image/friend.png">Friends</a>
+                <a href="#"><img src="image/groups.png">Group</a>
+                <a href="#"><img src="image/marketplace.png">Marketplace</a>
+                <a href="#"><img src="image/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="image/web-developer.1png.jpg"><Web developer></a>
+                <a href="#"><img src="image/web_Design.2.png"><Web Design course></a>
+                <a href="#"><img src="image/full stach.jpeg"><Full Developer></a>
+                <a href="#"><img src="image/Experts.png"><Website Experts></a>
+            </div>
+        </div>
+         <!---------main-content--------------->
+               <div class="main-content">
+                 
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="image/post.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="image/status.1.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="image/status.2.png.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="image/status.3.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="image/anil.jpg">
+                        <p>Post Story</p>
+                    </div>
+                </div>
+
+                 <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="image/marketing3.png.jpg">
+                        <div>
+                            <p>Tannu Bhatiya</p>
+                            <small>Public<i class="fas fa-carten-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="what's on your mind,John Doe?"></textarea>
+
+                        <div class="add-post-links">
+                           <a href="#"><img src="image/live.png">Live Video</a>
+                           <a href="#"><img src="image/photo.png">Photo/Video</a>
+                           <a href="#"><img src="image/feeling.png">Felling/Activity</a>
+                        </div>
+                     </div>
+
+                 </div>
+
+             
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/marketing3.png.jpg">
+                            <div>
+                                <p>Tannu Bhatiya</p>
+                                <span>June 24 2021,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subcribe <span>@Easy Tutorials</span> YouTube Chennel to Watch more videos
+                        on webside developer and UI designs.<a href="#">#Easy Tutorials</a>
+                    <a href="">#YouTubeChennel</a></p>
+                    <img src="image/feed.1.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like..png">120</div>
+                            <div><img src="image/comment..png">45</div>
+                            <div><img src="image/share..png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="image/marketing3.png.jpg">
+                        </div>
+                    </div>
+                 </div>
+              
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/marketing3.png.jpg">
+                            <div>
+                                <p>Tannu Bhatiya</p>
+                                <span>June 24 2021,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Like Share this videos with feiends tag<span>Facebook Page on your post Ask. Your doubts in the comments</span> 
+                        on webside developer and UI designs.<a href="#">#Easy Tutorials</a>
+                    <a href="">#YouTubeChennel</a></p>
+                    <img src="image/feed.2.jpeg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like..png">120</div>
+                            <div><img src="image/comment..png">45</div>
+                            <div><img src="image/share..png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="image/marketing3.png.jpg">
+                        </div>
+                    </div>
+                 </div>
+              
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/marketing3.png.jpg">
+                            <div>
+                                <p>Tannu Bhatiya</p>
+                                <span>June 24 2021,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Like Share this videos with feiends tag<span>Facebook Page on your post Ask. Your doubts in the comments</span> 
+                        on webside developer and UI designs.<a href="#">#Easy Tutorials</a>
+                    <a href="">#YouTubeChennel</a></p>
+                    <img src="image/feed.3.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like..png">120</div>
+                            <div><img src="image/comment..png">45</div>
+                            <div><img src="image/share..png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="image/marketing3.png.jpg">
+                        </div>
+                    </div>
+                 </div>
+              
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/marketing3.png.jpg">
+                            <div>
+                                <p>Tannu Bhatiya</p>
+                                <span>June 24 2021,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Like Share this videos with feiends tag<span>Facebook Page on your post Ask. Your doubts in the comments</span> 
+                        on webside developer and UI designs.<a href="#">#Easy Tutorials</a>
+                    <a href="">#YouTubeChennel</a></p>
+                    <img src="image/feed.4.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like..png">120</div>
+                            <div><img src="image/comment..png">45</div>
+                            <div><img src="image/share..png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="image/marketing3.png.jpg">
+                        </div>
+                    </div>
+                 </div>
+              
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="image/marketing3.png.jpg">
+                            <div>
+                                <p>Tannu Bhatiya</p>
+                                <span>June 24 2021,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Like Share this videos with feiends tag<span>Facebook Page on your post Ask. Your doubts in the comments</span> 
+                        on webside developer and UI designs.<a href="#">#Easy Tutorials</a>
+                    <a href="">#YouTubeChennel</a></p>
+                    <img src="image/feed.5.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like..png">120</div>
+                            <div><img src="image/comment..png">45</div>
+                            <div><img src="image/share..png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="image/marketing3.png.jpg">
+                        </div>
+                    </div>
+                 </div>
+              
+
+
+
+             <button type="button" class="load-more-btn">Load More</button>
+
+
+               </div>
+               
+                
+                   
+          
+           
+                        
+            
+  
+         <!---------right-sidebar--------------->
+        <div class="right-sidebar">
+                      
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Socail media</h4>
+                    <p>Willson tech park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+             <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Socail Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Willson tech park</p>
+                    <a href="#">More Info</a>
+                </div>
+             </div>
+
+             <div class="sidebar-title">
+                <h4>Adverment</h4>
+                <a href="#">Close</a>
+             </div>
+             <img src="image/Experts.png" class="sidebar-ads">
+
+             <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+             </div>
+
+
+              <div class="online-list">
+                <div class="online">
+                    <img src="image/membor.1.jpg">
+                </div>
+                <p>Jackson Aston</p>
+              </div>
+
+              <div class="online-list">
+                <div class="online">
+                    <img src="image/membor.2.webp">
+                </div>
+                <p>Alison Maina</p>
+              </div>
+
+              <div class="online-list">
+                <div class="online">
+                    <img src="image/membor.3.webp">
+                </div>
+                <p>Samona Rose</p>
+              </div>
+
+              </div>
+              
+            
+            
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - East Tutorial YouTube Chennel</p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
